@@ -31,25 +31,28 @@
 
                 <ImageView
                     android:id="@+id/imageView5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="59dp"
+                    android:layout_height="64dp"
+                    android:layout_marginStart="4dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/user_1" />
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/erul_yesus" />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="24dp"
-                    android:text="Hi, Alex"
+                    android:layout_marginStart="4dp"
+                    android:text="Hi, Tuan Muda erul"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView5"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.594" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
